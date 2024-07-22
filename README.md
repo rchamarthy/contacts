@@ -20,6 +20,26 @@ and delete contacts.
 
 ## How to Build
 
-- make server - build server binary
-- make test - run test cases
-- make lint - run linter
+__Build Code:__
+
+```bash
+make server
+```
+
+__Test:__
+
+```bash
+make test
+```
+
+Lint:
+
+```bash
+make lint
+```
+
+__Clean:__
+
+```bash
+make clean
+```
