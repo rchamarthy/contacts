@@ -1,5 +1,6 @@
 package contacts
 
+// Address caputres a contact's address information
 type Address struct {
 	AptNumber  string `json:"aptNumber" yaml:"aptNumber"`
 	Street     string `json:"street" yaml:"street"`

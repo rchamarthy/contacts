@@ -14,6 +14,7 @@ func main() {
 	server.Run()
 }
 
+// ContactServer is a simple server that serves contact information
 type ContactServer struct {
 	r           *gin.Engine
 	contactsDir string
