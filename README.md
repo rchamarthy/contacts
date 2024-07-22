@@ -17,3 +17,9 @@ and delete contacts.
 - Groups
 - Occupation (optional)
 - Profile Picture (optional)
+
+## How to Build
+
+- make server - build server binary
+- make test - run test cases
+- make lint - run linter
