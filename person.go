@@ -6,6 +6,7 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
+// Person captures a person's contact information
 type Person struct {
 	Email           string        `json:"email" yaml:"email"`
 	FirstName       string        `json:"firstName" yaml:"firstName"`
